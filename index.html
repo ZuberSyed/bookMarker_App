@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>BookMarker App</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="fetchBookmarks()">
+        <header>
+            <h1 class="heading">BookMarker App</h1>
+        </header>
+        <main>
+            <div class="bookmarker">
+            <h2 class="bookmarker_heading">BookMark your Favorite Sites</h2>
+            <div class="form">
+                <form id="myForm">
+                    <div class="form-group">
+                        <label>Website Name</label>
+                        <input type="text" id="siteName" placeholder="Enter website Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Website URL</label>
+                        <input type="text" id="siteUrl" placeholder="Enter website URL">
+                    </div>
+                    <button type="submit" class="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+                <div id="bookmarksResult"> </div>
+        </main>
+        <footer>
+            <p>&copy; 2021 BookMarker, Inc.</p>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
